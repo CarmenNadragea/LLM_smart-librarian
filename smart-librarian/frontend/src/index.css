@@ -1,0 +1,10 @@
+/* Stil global pentru aplicație */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+}
