@@ -17,3 +17,31 @@ chromadb_store/
 # OS
 .DS_Store
 Thumbs.db
+
+# Node/React
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output
+*.out
+*.tmp
+*.swp
+
+# Mac
+*.DS_Store
+
+# Windows
+*.Thumbs.db
+
+# Others
+*.bak
+*.old
+*.orig
