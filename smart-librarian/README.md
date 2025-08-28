@@ -27,16 +27,15 @@ smart-librarian/
 
 ## Instalare și configurare
 
-1. Instalează dependențele backend:
+1. Instalează dependențele:
    ```
+   pip install -r requirements.txt
    pip install -r backend/requirements.txt
-   ```
-2. Instalează dependențele frontend:
-   ```
+   
    cd frontend
    npm install
    ```
-3. Creează fișier `.env` în rădăcina proiectului cu:
+2. Creează fișier `.env` în rădăcina proiectului cu:
    ```
    OPENAI_API_KEY=your_openai_key
    ```
